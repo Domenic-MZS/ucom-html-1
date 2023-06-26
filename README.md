@@ -17,7 +17,7 @@ Not available yet but Project `Mockup` is attached 4 now. `(Click to expand)`
 ##  Prerequisites
  - Docker 24.x
 
-##  How to Get Start? - Development Server
+##  Getting Started - Development Server
 To serve the project on port 3000 run:
 ```bash
   make build run
