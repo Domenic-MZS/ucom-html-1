@@ -10,9 +10,9 @@ This project has design & functionality limitations by the Exercise itself...
 
 
 ### ✨ Demo (WIP)
-Not available yet but Project `Mockup` is attached 4 now
+Not available yet but Project `Mockup` is attached 4 now. `(Click to expand)`
 
-<img src="https://github.com/Domenic-MZS/ucom-html-1/images/project-mockup.png" alt="Project-mockup" width="690" height="500"/>
+<img src="images/project-mockup.png" alt="Project-mockup" width="690" height="500"/>
 
 ##  Prerequisites
  - Docker 24.x
