@@ -22,6 +22,7 @@
   --bg: hsl(342 32% 92% / 1);
   --white: hsl(340 30% 96% / 1);
   --primary: hsl(205 85% 24% / 1);
+  --accent: hsl(184 77% 48% / 1);
 }
 
 body {
@@ -32,8 +33,13 @@ body {
 h1, h2, 
 h3, h4,
 p, a {
-  line-height: 100%;
-  letter-spacing: 0.01981rem;
+  line-height: 1.2;
+  letter-spacing: 0.03rem;
+}
+
+h1,h2,h3,h4 {
+  line-height: 1;
+  text-transform: uppercase;
 }
 
 h1 {
@@ -63,4 +69,35 @@ h4 {
 p {
   font-family: var(--ff);
   font-size: var(--size-0);
+}
+
+.wrapper {
+  margin-inline: auto;
+  width: min(85%);
+}
+
+/* HERO SECTION */
+.hero-section {
+  margin-top: 3rem;
+}
+
+.hero-section--title span {
+  font-weight: 500;
+}
+
+.hero-section--content {
+  margin-top: 1.2rem;
+}
+
+.hero-section--cta {
+  display: block;
+  margin: 2.5rem auto ;
+  padding: .5em 1.3em;
+  width: 80%;
+  border-radius: 6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--white);
+  font-weight: var(--fw-h4);
+  background-color: var(--accent);
 }
