@@ -1,0 +1,66 @@
+
+:root {
+  /* Fonts */
+  --ffh: 'Roboto';
+  --ff: 'Belgrano';
+  --logo: 'Lobster';
+
+  /* Weights */
+  --fw-h1: 600;
+  --fw-h2: 600;
+  --fw-h3: 900;
+  --fw-h4: 900;
+
+  /* Sizes */
+  --size-1: 2rem;
+  --size-2: 1.65rem;
+  --size-3: 1.125rem;
+  --size-4: 0.9375rem;
+  --size-0: 1.1rem;
+
+  /* Palette */
+  --bg: hsl(342 32% 92% / 1);
+  --white: hsl(340 30% 96% / 1);
+  --primary: hsl(205 85% 24% / 1);
+}
+
+body {
+  background: var(--bg);
+  color: var(--primary);
+}
+
+h1, h2, 
+h3, h4,
+p, a {
+  line-height: 100%;
+  letter-spacing: 0.01981rem;
+}
+
+h1 {
+  font-family: var(--ffh);
+  font-size: var(--size-1);
+  font-weight: var(--fw-h1);
+}
+
+h2 {
+  font-family: var(--ffh);
+  font-size: var(--size-2);
+  font-weight: var(--fw-h2);
+}
+
+h3 {
+  font-size: var(--size-3);
+  font-family: var(--ffh);
+  font-weight: var(--fw-h3);
+}
+
+h4 {
+  font-size: var(--size-4);
+  font-family: var(--ffh);
+  font-weight: var(--fw-h4);
+}
+
+p {
+  font-family: var(--ff);
+  font-size: var(--size-0);
+}
