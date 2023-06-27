@@ -16,7 +16,176 @@
         2 minutos.
       </p>
       <a aria-label="Learn More" class="hero-section--cta">Aprender</a>
-      
+    </section>
+
+    <section class="summary-section wrapper" aria-label="Page Topics">
+      <h2 class="summary-section--title center">tabla de contenido</h2>
+
+      <div class="summary-section--content">
+        <ol>
+          <li>Conceptos</li>
+          <li>Principios</li>
+          <li>Caracteristicas</li>
+          <li>Ejemplos</li>
+          <li>Resumen</li>
+        </ol>
+        <svg></svg>
+        <img src="assets/blockchain-core.webp" alt="Blockchain Core">
+      </div>
+    </section>
+
+    <section class="definition-section wrapper">
+      <h2 class="definition-section--title">Que es el blockchain?</h2>
+
+      <p class="definition-section--content">
+        Se trata de una enorme base de datos que recoge y almacena la 
+        información de manera compartida y descentralizada. De esta 
+        forma se crea una cadena de registros criptograficamente 
+        únicos pero que a su vez generan copias sincronizadas en toda 
+        la red de forma consensuada, lo que hace imposible la 
+        manipulacion de  datos.
+      </p>
+
+      <img src="assets/computer-blocks.webp" aria-hidden="true" alt="Blockchain breaking the web">
+    </section>
+
+    <section class="characteristics-section wrapper">
+      <h2>Por que cadenas?</h2>
+      <img src="assets/chain-blocks.webp" aria-hidden="true" alt="People holding the blockchain">
+      <p>
+        Decimos que es una cadena de bloques, ya que todos los 
+        registros o bloques de la red llevan un registro 
+        criptografico representando los datos del registro y el
+        del registro previo, formando asi una cadena de 
+        “vinculos” (hashes). 
+      </p>
+      <p>
+        Esta cadena de “vinculos” asegura la integridad de los
+        datos, ya que ante cualquier cambio, toda la cadena 
+        seria invalidada.
+      </p>
+      <img src="assets/hashes.webp" alt="Block Hashes Representation">
+    </section>
+
+    <section class="function-section wrapper">
+      <h2>funcionamiento</h2>
+      <p>
+        Antes de que se agreguen datos a la cadena de bloques,
+        múltiples fuentes de la red validan dicha entrada. Y 
+        una vez que se agregan los datos, no se pueden cambiar 
+        y el registro se distribuye en la red. 
+      </p>
+      <p>
+        Dicho proceso empieza por la verificación de varios 
+        miembros conectados a la red de la cadena. Estos bloques 
+        de datos están todos vinculados entre sí y forman la 
+        cadena. Todas las transacciones son públicas para 
+        aquellos que están en la cadena de bloques, pero se 
+        ocultan todas las identidades. 
+      </p>
+      <p>
+        Cada bloque contiene conjuntos de transacciones anteriores 
+        con marcas de tiempo, junto con el hash (huella digital) 
+        del bloque anterior: esto es lo que crea el vínculo 
+        inmutable entre los bloques secuenciales de la cadena.
+      </p>
+      <p>
+        La combinación de cripotgrafía y marcas de tiempo permite 
+        que la tecnología de cadena de bloques verifique 
+        automáticamente que esta secuencia progresiva de hash no 
+        cambie nunca. Esta acción impide la inserción de nuevos 
+        bloques fuera de orden, lo que evita la alteración o 
+        falsificación de los datos de las transacciones.
+      </p>
+    </section>
+
+    <section class="process-section wrapper">
+      <h2>El proceso</h2>
+      <article>
+        <p>
+          El usuario ‘A’ envía una transacción para pagarle al 
+          usuario ‘B’. Esto se representa como un bloque.
+        </p>
+        <img src="./assets/block-forge.webp" alt="">
+      </article>
+      <article>
+        <p>
+          Este bloque se transmite a todos los miembros de la 
+          red punto a punto para que lo verifiquen.
+        </p>
+        <img src="./assets/block-matrix.webp" alt="">
+      </article>
+      <article>
+        <p>
+          El bloque se compara con la copia del diario mayor.
+          Se aprueba la transacción si todos aceptan/coinciden.
+        </p>
+        <img src="./assets/main-block-diary.webp" alt="">
+      </article>
+      <article>
+        <p>
+          La transacción se completa y el bloque se agrega como
+          el último eslabón de la cadena de bloques.
+        </p>
+        <img src="./assets/chained-block.webp" alt="">
+      </article>
+    </section>
+
+    <section class="principles-section wrapper">
+      <h2>principios</h2>
+      <article>
+        <img src="./assets/cube-matrix.webp" alt="">
+        <div class="content">
+          <h3>participantes</h3>
+          <p>
+            Son las entidades que participan en la red, ya 
+            sea para observar o emitir.
+          </p>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/ethereum.webp" alt="">
+        <div class="content">
+          <h3>activos</h3>
+          <p>
+            Son las definiciones de los datos que se 
+            transmiten en la red, ya sean certificados 
+            o valores fijos.
+          </p>
+        </div>
+      </article>
+      <article>
+        <img src="./assets/contract.webp" alt="">
+        <div class="content">
+          <h3>transacciones</h3>
+          <p>
+            Son los datos en la red blockchain, en si,
+            ya transmitidos y con un valor. 
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="faq-section wrapper">
+      <h2>Preguntas frecuentes</h2>
+      <a href="#">Tarea 1</a>
+      <a href="#">Tarea 2</a>
+    </section>
+
+    <section class="references-section wrapper">
+      <h2>Referencias</h2>
+      <ul>
+        <li>Pagina 1</li>
+        <li>Pagina 2</li>
+        <li>Pagina 3</li>
+      </ul>
+      <img src="./assets/logo.webp" alt="logo">
+    </section>
+
+    <section class="footer wrapper">
+      <h4>Made with love 2023</h4>
+      <a href="#"><img src="./assets/github-logo.webp" alt="Github Repository"></a>
+      <a href="#"><img src="./assets/gmail-logo.webp" alt="GMail Repository"></a>
     </section>
   </body>
 </html>
