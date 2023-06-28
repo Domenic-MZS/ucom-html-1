@@ -1,9 +1,9 @@
 
 :root {
   /* Fonts */
-  --ffh: 'Roboto';
-  --ff: 'Belgrano';
-  --logo: 'Lobster';
+  --ffh: 'Roboto',   serif;
+  --ff: 'Belgrano',  serif;
+  --logo: 'Lobster', serif;
 
   /* Weights */
   --fw-h1: 600;
@@ -17,6 +17,7 @@
   --size-3: 1.125rem;
   --size-4: 0.9375rem;
   --size-0: 1.1rem;
+  --section-margin: 3rem;
 
   /* Palette */
   --bg: hsl(342 32% 92% / 1);
@@ -34,7 +35,7 @@ h1, h2,
 h3, h4,
 p, a {
   line-height: 1.2;
-  letter-spacing: 0.05rem;
+  letter-spacing: 0.053rem;
 }
 
 h1,h2,h3,h4 {
@@ -66,7 +67,7 @@ h4 {
   font-weight: var(--fw-h4);
 }
 
-p {
+p, a, li {
   font-family: var(--ff);
   font-size: var(--size-0);
 }
@@ -81,6 +82,11 @@ p {
   text-align: center;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
 /* 
  * ###############################
  * #      TABLE OF CONTENTS      #
@@ -89,8 +95,8 @@ p {
  */
 
 /* HERO SECTION */
-.hero-section {
-  margin-top: 3rem;
+section {
+  margin-top: var(--section-margin);
 }
 
 .hero-section--title span {
@@ -112,4 +118,38 @@ p {
   color: var(--white);
   font-weight: var(--fw-h4);
   background-color: var(--accent);
+}
+
+.summary-section {
+  --skew: skew(0deg, -4deg);
+
+  position: relative;
+  overflow-x: clip;
+  padding: var(--section-margin) 0;
+  color: var(--white);
+  isolation: isolate;
+}
+
+.summary-section::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  inset: 0;
+  transform: var(--skew);
+  z-index: -1;
+  background-color: var(--primary);
+}
+
+.summary-section--content {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.summary-section--content ol {
+  list-style-type: lower-alpha;
+  padding-left: 1.5rem;
+}
+
+.summary-section--content li ~ li {
+  padding-top: .5em;
 }
