@@ -39,7 +39,6 @@ p, a {
 }
 
 h1,h2,h3,h4 {
-  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -152,4 +151,21 @@ section {
 
 .summary-section--content li ~ li {
   padding-top: .5em;
+}
+
+/* ============================== */
+ /* DEFINITION SECTION */
+/* ============================== */
+.definition-section {
+  margin-top: -1rem;
+  padding: 5.5rem 0 4rem 0;
+  background-color: var(--white);
+}
+
+.definition-section p {
+  margin-top: 1rem;
+}
+
+.definition-section img {
+  margin-top: 1rem;
 }
