@@ -251,3 +251,90 @@ section {
 .process-section article:last-of-type {
   padding-bottom: 6rem;
 }
+
+
+/* ============================== */
+/* PRINCIPLES SECTION */
+/* ============================== */
+
+.principles-section {
+  padding-bottom: 4rem;
+}
+
+.principles-section--title  {
+  margin-top: 4rem;
+  padding-bottom: .5rem;
+  position: relative;
+}
+
+.principles-section--title:before {
+  content: '';
+  width: 35%;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  background-color: var(--accent);
+}
+
+.principles-section article {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.principles-section img {
+  width: min(60%, 80px);
+}
+
+.principles-section article:first-of-type {
+  margin-top: 5.2rem;
+}
+
+.principles-section article ~ article {
+  margin-top: 3.5rem;
+}
+
+/* ============================== */
+/* FAQ SECTION */
+/* ============================== */
+.faq-section {
+  padding: 3.5rem 0;
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.faq-section a:first-of-type {
+  margin-top: 1.5rem;
+}
+
+.faq-section a {
+  display: block;
+  position: relative;
+  padding: .75em 1.5em;
+  background-color: var(--accent);
+  border-radius: .4rem;
+  color: var(--white);
+  text-decoration: none;
+
+}
+
+.faq-section a:after {
+  content: '\21C0';
+  font-weight: 900;
+  font-family: sans-serif;
+  color: var(--white);
+  position: absolute;
+  top: 55%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+}
+
+.faq-section a ~ a {
+  margin-top: .7rem;
+}
+
+
+/* ============================== */
+/* REFERENCE SECTION */
+/* ============================== */
