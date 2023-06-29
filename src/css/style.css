@@ -124,6 +124,7 @@ section {
 
   position: relative;
   overflow-x: clip;
+  margin-top: 5rem;
   padding: var(--section-margin) 0;
   color: var(--white);
   isolation: isolate;
@@ -154,7 +155,7 @@ section {
 }
 
 /* ============================== */
- /* DEFINITION SECTION */
+/* DEFINITION SECTION */
 /* ============================== */
 .definition-section {
   margin-top: -1rem;
@@ -167,5 +168,86 @@ section {
 }
 
 .definition-section img {
-  margin-top: 1rem;
+  margin-top: 1.7rem;
+  margin-inline: auto;
+}
+
+
+/* ============================== */
+/* CHARACTERISTICS SECTION */
+/* ============================== */
+
+.characteristics-section {
+  padding-top: 1rem;
+}
+
+.characteristics-section img {
+  margin-top: 2.3rem;
+  margin-inline: auto;
+}
+
+.characteristics-section p:first-of-type {
+  margin-top: 3rem;
+}
+
+.characteristics-section p ~ p {
+  margin-top: 1.5rem;
+}
+
+
+/* ============================== */
+/* FUNCTIONALITY SECTION */
+/* ============================== */
+
+.function-section {
+  color: var(--white);
+  background-color: var(--primary);
+  clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0 100%);
+  -webkit-clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0 100%);
+  isolation: isolate;
+  position: relative;
+  margin-top: 6rem;
+}
+
+.function-section--title {
+  padding-top: 9rem;
+}
+
+.function-section p {
+  margin-top: 1.6rem;
+}
+
+.function-section p:last-of-type {
+  padding-bottom: 6rem;
+}
+
+/* ============================== */
+/* PROCESS SECTION */
+/* ============================== */
+.process-section {
+  margin-top: 0;
+  padding-top: calc(var(--section-margin) + 2rem);
+  background-color: var(--white);
+}
+
+.process-section article {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 1rem;
+}
+
+.process-section article:first-of-type {
+  margin-top: 2.5rem;
+}
+
+.process-section article img {
+  margin-left: auto;
+}
+
+.process-section article ~ article {
+  margin-top: 2.3rem;
+}
+
+.process-section article:last-of-type {
+  padding-bottom: 6rem;
 }
