@@ -202,6 +202,7 @@ section {
 .function-section {
   color: var(--white);
   background-color: var(--primary);
+  min-height: 100vh;
   clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0 100%);
   -webkit-clip-path: polygon(0 0, 100% 4.5rem, 100% 100%, 0 100%);
   isolation: isolate;
