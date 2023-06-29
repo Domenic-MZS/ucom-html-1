@@ -338,3 +338,42 @@ section {
 /* ============================== */
 /* REFERENCE SECTION */
 /* ============================== */
+.references-section {
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.logo-img {
+  width: 76px;
+}
+
+.references-section--content {
+  margin-top: 1.8rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+
+}
+
+.references-section--content li ~li{
+  margin-top: .7rem;
+}
+
+footer {
+  padding: 1rem 1.5rem;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
+
+.footer-links a ~ a {
+  margin-left: 1.5rem;
+}
