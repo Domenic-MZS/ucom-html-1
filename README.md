@@ -6,13 +6,17 @@
 
 This repo represents the `Exercise 2` from the Systems Analysis degree of the UCOM University HTML5 & CSS Introduction! Feel free to fork it (for any reason xD) and play with it.
 
-This project has design & functionality limitations by the Exercise itself...
+There are some caveats and enhancements to be done, but this was built ASAP...
+Plus this project has design/functionality limitations by the Exercise itself...
 
 
-### ✨ Demo (WIP)
-Not available yet but Project `Mockup` is attached 4 now. `(Click to expand)`
+### ✨ Demo 
 
-<img src="images/project-mockup.png" alt="Project-mockup" width="690" height="500"/>
+Wanna try? Here's the [demo page](https://domenic-mzs.github.io/ucom-html-1/src)... !!
+
+| NOTE: It's available for Mobile Devices only (for now), there's no plan for Future responsiveness tho... 
+|     
+| - BTW a full prototype can be seen [here](images/project-mockup.png).
 
 ##  Prerequisites
  - Docker 24.x
