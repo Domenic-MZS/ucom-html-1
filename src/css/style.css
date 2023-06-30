@@ -26,6 +26,10 @@
   --accent: hsl(184 77% 48% / 1);
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body {
   background: var(--bg);
   color: var(--primary);
@@ -34,6 +38,7 @@ body {
 h1, h2, 
 h3, h4,
 p, a {
+  text-decoration: none;
   line-height: 1.2;
   letter-spacing: 0.053rem;
 }
@@ -346,6 +351,17 @@ section {
 
 .logo-img {
   width: 76px;
+}
+
+.references-section a {
+  color: var(--primary);
+  transition: color 300ms ease-in-out;
+  text-decoration: none;
+}
+
+.references-section a:hover {
+  color: var(--accent);
+  cursor: pointer;
 }
 
 .references-section--content {
