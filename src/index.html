@@ -1,214 +1,225 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <title>Tarea 1</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
-    <link href="css/resets.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <main>
-      <section class="hero-section wrapper">
-        <h1 class="hero-section--title">blockchain en <wbr>la <span>web<span></h1>
-        <p class="hero-section--content">
-          Conoce las ventajas del blockchain y enterate 
-          de los ultimos cambios que trae, en menos de 
-          2 minutos.
-        </p>
-        <a aria-label="Learn More" class="hero-section--cta" href="#summary-section">Aprender</a>
-      </section>
 
-      <section class="summary-section" id="summary-section" aria-label="Page Topics">
-        <div class="wrapper">
-          <h2 class="summary-section--title center">tabla de contenido</h2>
+<head>
+  <title>Tarea 1</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Belgrano&display=swap" rel="stylesheet">
+  <link href="css/resets.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
+</head>
 
-          <div class="summary-section--content">
-            <ol>
-              <li>Conceptos</li>
-              <li>Principios</li>
-              <li>Caracteristicas</li>
-              <li>Ejemplos</li>
-              <li>Resumen</li>
-            </ol>
-            <img class="summary-section--hero" src="assets/blockchain-core.webp" alt="Blockchain Core">
-          </div>
+<body>
+  <main>
+    <section class="hero-section wrapper">
+      <h1 class="hero-section--title">blockchain en <wbr>la <span>web<span></h1>
+      <p class="hero-section--content">
+        Conoce las ventajas del blockchain y enterate
+        de los ultimos cambios que trae, en menos de
+        2 minutos.
+      </p>
+      <a aria-label="Learn More" class="hero-section--cta" href="#summary-section">Aprender</a>
+    </section>
+
+    <section class="summary-section" id="summary-section" aria-label="Page Topics">
+      <div class="wrapper">
+        <h2 class="summary-section--title center">tabla de contenido</h2>
+
+        <div class="summary-section--content">
+          <ol>
+            <li>Conceptos</li>
+            <li>Principios</li>
+            <li>Caracteristicas</li>
+            <li>Ejemplos</li>
+            <li>Resumen</li>
+          </ol>
+          <img class="summary-section--hero" src="assets/blockchain-core.webp" alt="Blockchain Core">
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="definition-section">
-        <div class="wrapper">
-          <h2 class="definition-section--title">Que es el blockchain?</h2>
+    <section class="definition-section">
+      <div class="wrapper">
+        <h2 class="definition-section--title">Que es el blockchain?</h2>
 
-          <p>
-            Se trata de una enorme base de datos que recoge y almacena la 
-            información de manera compartida y descentralizada. 
-          </p>
-          <p>
-            De esta forma se crea una cadena de registros criptograficamente 
-            únicos pero que a su vez generan copias sincronizadas en toda 
-            la red de forma consensuada, lo que hace imposible la 
-            manipulacion de  datos.
-          </p>
-
-          <img src="assets/computer-blocks.webp" aria-hidden="true" alt="Blockchain breaking the web">
-        </div>
-      </section>
-
-      <section class="characteristics-section wrapper">
-        <h2>Por que cadenas?</h2>
-        <img src="assets/chain-blocks.webp" aria-hidden="true" alt="People holding the blockchain">
         <p>
-          Decimos que es una cadena de bloques, ya que todos los 
-          registros o bloques de la red llevan un registro 
-          criptografico representando los datos del registro y el
-          del registro previo, formando asi una cadena de 
-          “vinculos” (hashes). 
+          Se trata de una enorme base de datos que recoge y almacena la
+          información de manera compartida y descentralizada.
         </p>
         <p>
-          Esta cadena de “vinculos” asegura la integridad de los
-          datos, ya que ante cualquier cambio, toda la cadena 
-          seria invalidada.
+          De esta forma se crea una cadena de registros criptograficamente
+          únicos pero que a su vez generan copias sincronizadas en toda
+          la red de forma consensuada, lo que hace imposible la
+          manipulacion de datos.
         </p>
-        <img src="assets/hashes.webp" alt="Block Hashes Representation">
-      </section>
 
-      <section class="function-section">
-        <div class="wrapper">
-          <h2 class="function-section--title center">funcionamiento</h2>
-          <p>
-            Antes de que se agreguen datos a la cadena de bloques,
-            múltiples fuentes de la red validan dicha entrada. Y 
-            una vez que se agregan los datos, no se pueden cambiar 
-            y el registro se distribuye en la red. 
-          </p>
-          <p>
-            Dicho proceso empieza por la verificación de varios 
-            miembros conectados a la red de la cadena. Estos bloques 
-            de datos están todos vinculados entre sí y forman la 
-            cadena. Todas las transacciones son públicas para 
-            aquellos que están en la cadena de bloques, pero se 
-            ocultan todas las identidades. 
-          </p>
-          <p>
-            Cada bloque contiene conjuntos de transacciones anteriores 
-            con marcas de tiempo, junto con el hash (huella digital) 
-            del bloque anterior: esto es lo que crea el vínculo 
-            inmutable entre los bloques secuenciales de la cadena.
-          </p>
-          <p>
-            La combinación de cripotgrafía y marcas de tiempo permite 
-            que la tecnología de cadena de bloques verifique 
-            automáticamente que esta secuencia progresiva de hash no 
-            cambie nunca. Esta acción impide la inserción de nuevos 
-            bloques fuera de orden, lo que evita la alteración o 
-            falsificación de los datos de las transacciones.
-          </p>
-        </div>
-      </section>
+        <img src="assets/computer-blocks.webp" aria-hidden="true" alt="Blockchain breaking the web">
+      </div>
+    </section>
 
-      <section class="process-section">
-        <div class="wrapper">
-          <h2 class="center process-section--title">El proceso</h2>
-          <article>
-            <p>
-              El usuario ‘A’ envía una transacción para pagarle al 
-              usuario ‘B’. Esto se representa como un bloque.
-            </p>
-            <img src="./assets/block-forge.webp" alt="">
-          </article>
-          <article>
-            <p>
-              Este bloque se transmite a todos los miembros de la 
-              red punto a punto para que lo verifiquen.
-            </p>
-            <img src="./assets/block-matrix.webp" alt="">
-          </article>
-          <article>
-            <p>
-              El bloque se compara con la copia del diario mayor.
-              Se aprueba la transacción si todos aceptan/coinciden.
-            </p>
-            <img src="./assets/main-block-diary.webp" alt="">
-          </article>
-          <article>
-            <p>
-              La transacción se completa y el bloque se agrega como
-              el último eslabón de la cadena de bloques.
-            </p>
-            <img src="./assets/chained-block.webp" alt="">
-          </article>
-        </div>
-      </section>
+    <section class="characteristics-section wrapper">
+      <h2>Por que cadenas?</h2>
+      <img src="assets/chain-blocks.webp" aria-hidden="true" alt="People holding the blockchain">
+      <p>
+        Decimos que es una cadena de bloques, ya que todos los
+        registros o bloques de la red llevan un registro
+        criptografico representando los datos del registro y el
+        del registro previo, formando asi una cadena de
+        “vinculos” (hashes).
+      </p>
+      <p>
+        Esta cadena de “vinculos” asegura la integridad de los
+        datos, ya que ante cualquier cambio, toda la cadena
+        seria invalidada.
+      </p>
+      <img src="assets/hashes.webp" alt="Block Hashes Representation">
+    </section>
 
-      <section class="principles-section wrapper">
-        <h2 class="center principles-section--title">principios</h2>
+    <section class="function-section">
+      <div class="wrapper">
+        <h2 class="function-section--title center">funcionamiento</h2>
+        <p>
+          Antes de que se agreguen datos a la cadena de bloques,
+          múltiples fuentes de la red validan dicha entrada. Y
+          una vez que se agregan los datos, no se pueden cambiar
+          y el registro se distribuye en la red.
+        </p>
+        <p>
+          Dicho proceso empieza por la verificación de varios
+          miembros conectados a la red de la cadena. Estos bloques
+          de datos están todos vinculados entre sí y forman la
+          cadena. Todas las transacciones son públicas para
+          aquellos que están en la cadena de bloques, pero se
+          ocultan todas las identidades.
+        </p>
+        <p>
+          Cada bloque contiene conjuntos de transacciones anteriores
+          con marcas de tiempo, junto con el hash (huella digital)
+          del bloque anterior: esto es lo que crea el vínculo
+          inmutable entre los bloques secuenciales de la cadena.
+        </p>
+        <p>
+          La combinación de cripotgrafía y marcas de tiempo permite
+          que la tecnología de cadena de bloques verifique
+          automáticamente que esta secuencia progresiva de hash no
+          cambie nunca. Esta acción impide la inserción de nuevos
+          bloques fuera de orden, lo que evita la alteración o
+          falsificación de los datos de las transacciones.
+        </p>
+      </div>
+    </section>
+
+    <section class="process-section">
+      <div class="wrapper">
+        <h2 class="center process-section--title">El proceso</h2>
         <article>
-          <img src="./assets/cube-matrix.webp" alt="">
-          <div class="content">
-            <h3>participantes</h3>
-            <p>
-              Son las entidades que participan en la red, ya 
-              sea para observar o emitir.
-            </p>
-          </div>
+          <p>
+            El usuario ‘A’ envía una transacción para pagarle al
+            usuario ‘B’. Esto se representa como un bloque.
+          </p>
+          <img src="./assets/block-forge.webp" alt="">
         </article>
         <article>
-          <img src="./assets/ethereum.webp" alt="">
-          <div class="content">
-            <h3>activos</h3>
-            <p>
-              Son las definiciones de los datos que se 
-              transmiten en la red, ya sean certificados 
-              o valores fijos.
-            </p>
-          </div>
+          <p>
+            Este bloque se transmite a todos los miembros de la
+            red punto a punto para que lo verifiquen.
+          </p>
+          <img src="./assets/block-matrix.webp" alt="">
         </article>
         <article>
-          <img src="./assets/contract.webp" alt="">
-          <div class="content">
-            <h3>transacciones</h3>
-            <p>
-              Son los datos en la red blockchain, en si,
-              ya transmitidos y con un valor. 
-            </p>
-          </div>
+          <p>
+            El bloque se compara con la copia del diario mayor.
+            Se aprueba la transacción si todos aceptan/coinciden.
+          </p>
+          <img src="./assets/main-block-diary.webp" alt="">
         </article>
-      </section>
+        <article>
+          <p>
+            La transacción se completa y el bloque se agrega como
+            el último eslabón de la cadena de bloques.
+          </p>
+          <img src="./assets/chained-block.webp" alt="">
+        </article>
+      </div>
+    </section>
 
-      <section class="faq-section">
-        <div class="wrapper">
-          <h2>Preguntas frecuentes</h2>
-          <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 1</a>
-          <a href="https://ucom.instructure.com/courses/1099/assignments/11257" target="_blank">Tarea 2</a>
+    <section class="principles-section wrapper">
+      <h2 class="center principles-section--title">principios</h2>
+      <article>
+        <img src="./assets/cube-matrix.webp" alt="">
+        <div class="content">
+          <h3>participantes</h3>
+          <p>
+            Son las entidades que participan en la red, ya
+            sea para observar o emitir.
+          </p>
         </div>
-      </section>
-
-      <section class="references-section wrapper">
-        <h2 class="references-section--title">Referencias</h2>
-        <div class="references-section--content">
-          <ul>
-            <li><a href="#">Pagina 1</a></li>
-            <li><a href="#">Pagina 2</a></li>
-            <li><a href="#">Pagina 3</a></li>
-          </ul>
-          <img class="logo-img" src="./assets/logo.webp" alt="logo">
+      </article>
+      <article>
+        <img src="./assets/ethereum.webp" alt="">
+        <div class="content">
+          <h3>activos</h3>
+          <p>
+            Son las definiciones de los datos que se
+            transmiten en la red, ya sean certificados
+            o valores fijos.
+          </p>
         </div>
-      </section>
+      </article>
+      <article>
+        <img src="./assets/contract.webp" alt="">
+        <div class="content">
+          <h3>transacciones</h3>
+          <p>
+            Son los datos en la red blockchain, en si,
+            ya transmitidos y con un valor.
+          </p>
+        </div>
+      </article>
+    </section>
 
-    </main>
+    <section class="faq-section">
+      <div class="wrapper">
+        <h2>Preguntas frecuentes</h2>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 1</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11257" target="_blank">Tarea 2</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 3</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11257" target="_blank">Tarea 4</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 5</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11257" target="_blank">Tarea 6</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 7</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11257" target="_blank">Tarea 8</a>
+        <a href="https://ucom.instructure.com/courses/1099/assignments/11256" target="_blank">Tarea 9</a>
+      </div>
+    </section>
 
-    <footer>
-        <h4>Made with love 2023</h4>
-      <address class="footer-links">
-        <a href="https://github.com/Domenic-MZS/ucom-html-1"><img src="./assets/github-logo.webp" alt="Github Repository"></a>
-        <a href="mailto:domenicoenriquemeza20.014@gmail.com"><img src="./assets/gmail-logo.webp" alt="GMail Repository"></a>
-      </address> 
-    </footer>
-  </body>
+    <section class="references-section wrapper">
+      <h2 class="references-section--title">Referencias</h2>
+      <div class="references-section--content">
+        <ul>
+          <li><a href="#">Pagina 1</a></li>
+          <li><a href="#">Pagina 2</a></li>
+          <li><a href="#">Pagina 3</a></li>
+        </ul>
+        <img class="logo-img" src="./assets/logo.webp" alt="logo">
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <h4>Made with love 2023</h4>
+    <address class="footer-links">
+      <a href="https://github.com/Domenic-MZS/ucom-html-1"><img src="./assets/github-logo.webp"
+          alt="Github Repository"></a>
+      <a href="mailto:domenicoenriquemeza20.014@gmail.com"><img src="./assets/gmail-logo.webp"
+          alt="GMail Repository"></a>
+    </address>
+  </footer>
+</body>
+
 </html>
-
